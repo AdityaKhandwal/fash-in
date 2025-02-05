@@ -498,7 +498,8 @@ next-btn img {
 
 .cards-large {
     display: flex;
-    position: relative;
+    flex:0 0 (100/4 - 20px);
+    position:relative;
     height: 550px;
     width: 400px;
     border-radius: 20px;
